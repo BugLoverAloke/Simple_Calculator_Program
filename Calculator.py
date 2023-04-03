@@ -60,9 +60,9 @@ def myClickPercentage():
     elif(opr=="-"):
         result=float(num1)-(float(num1)*float(num2)/100)
     elif(opr=="*"):
-        result=float(num1)*(float(num1)*float(num2)/100)
+        result=float(num1)*(float(num2)/100)
     elif(opr=="/"):
-        result=float(num1)/(float(num1)*float(num2)/100)
+        result=float(num1)/(float(num2)/100)
     stres=str(result)
     display_panel.insert(0,stres)
     starting_input=1
